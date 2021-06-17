@@ -1,0 +1,14 @@
+body {
+  background-image: url(.//images/akita-5964180_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-weight: 00;
+}
+
+.img {
+  display: block;
+}
