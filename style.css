@@ -38,6 +38,7 @@ header,
 }
 
 .hd-br {
+  /*  font-family: "Dancing Script", cursive;*/
   /* font-family: "Norican", cursive; */
   font-family: "Dancing Script", cursive;
 }
@@ -49,12 +50,20 @@ header,
   border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
 
-/* .img {
+/* Carousel */
+.carousel-img {
+  padding: 0;
   display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0 auto;
+  max-height: 100%;
   max-width: 100%;
-} */
+}
 
-/*  
-font-family: "Dancing Script", cursive;*/
+/* Carousel Firefox bug */
+/* .carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+} */
