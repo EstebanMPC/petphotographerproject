@@ -32,15 +32,7 @@ header,
   /* background-color: rgba(0, 0, 0, 0.6); */
 }
 
-#intro2 {
-  background: url(".//images/dog-1850465_1920.jpg") no-repeat center center
-    fixed;
-  height: 35rem;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 
 .ttl-br,
 .sub-ttl {
@@ -97,6 +89,15 @@ header,
 
 .br2 {
   margin-top: 30px;
+}
+
+#wlc {
+  background: url(".//images/welcomeimg.jpeg");
+  height: 45rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Carousel */
@@ -165,10 +166,35 @@ header,
   background-color: white;
 }
 
+/* Reviews */
+
+#intro3 {
+  background: url(".//images/dog-2561134_1920.jpg") no-repeat center center
+    fixed;
+  height: 45rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#intro2 {
+  background: url(".//images/dog-1850465_1920.jpg") no-repeat center center
+    fixed;
+  height: 45rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
 #close2 {
   background: url(".//images/standup-paddleboarding-1838969_1920.jpg") no-repeat
     center center fixed;
-  height: 35rem;
+  height: 45rem;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
