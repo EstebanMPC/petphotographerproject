@@ -9,9 +9,10 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Norican&family=Poiret+One&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Norican&family=Poiret+One&family=Montserrat:ital,wght@0,200;0,300;0,500;1,200&display=swap"
         rel="stylesheet">
 
 </head>
@@ -21,7 +22,7 @@
 <body>
     <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark ">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
             <a href="#" class="ttl-br navbar-brand "> J. Avery </a>
             <button class="navbar-toggler">
                 <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
@@ -52,16 +53,17 @@
             </div>
         </nav>
         <!-- mask -->
-        <div id="intro" class="view">
-            <div class="mask container-fluid d-flex align-items-center justify-content-center">
+        <div id="intro" class="bg-image view">
+            <img src="images/pexels-photo-1831997.jpeg">
+            <div class="mask container-fluid d-flex align-items-center justify-content-center" style="background-color: rgba(0,0,0,0.6)">
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-12 text-center">
                         <!-- heading -->
-                        <h2 class="hd-br display-3 font-volt white-text mb-2">James Avery</h2>
+                        <h2 class="hd-in display-3 font-volt white-text mb-2">James Avery</h2>
                         <!-- divider -->
                         <hr class="hr">
                         <!-- description -->
-                        <h5 class="sub-ttl white-text my-4">
+                        <h5 class="sub-int white-text my-4">
                             Pet Photographer
                         </h5>
                         <h5>
@@ -76,22 +78,20 @@
     </header>
 
     <!-- Welcome  -->
-    <div id="wlc" class="view">
-        <div class="mask container-fluid ">
-            <div class="d-flex flex-column align-items-end">
-                <div class="col-sm-4 text-center ">
-                    <h2 class="hd-br br2 display-3 font-volt  mb-2">Welcome</h2>
-                </div>
-                <h5 class="col-sm-4 sub-ttl my-4">
-                    Thank you so much for visiting my site! I am James, a pet photographer based out of Northern
-                    Virginia. I am also a loving husband and a father of two: One baby boy and an Akita named Donnie!
-                </h5>
-                <div class="col-sm-4 text-center">
-                    <button type="button" class="btn btn-outline-secondary text-white">More About Me</button>
-                </div>
-            </div>
+
+    <div class="d-flex flex-column d-flex align-items-center justify-content-center bg-white ">
+        <div class="col-sm-4 text-center ">
+            <h2 class="hd-br br2 display-3 font-volt text-dark mb-2">Welcome</h2>
+        </div>
+        <h5 class="col-sm-8 text-dark sub-ttl my-4">
+            Thank you so much for visiting my site! I am James, a pet photographer based out of Northern
+            Virginia. I am also a loving husband and a father of two: one baby boy and an Akita named Donnie!
+        </h5>
+        <div class="col-sm-4 text-center">
+            <button type="button" class="btn text-dark btn-outline-secondary text-white my-4">More About Me</button>
         </div>
     </div>
+    <hr class="hrs">
 
     <!-- Main layout -->
 
@@ -114,8 +114,10 @@
             <h3>Jazz</h3>
         </div>
     </div>
-    <div class="col-md-12 text-center">
-        <button type="button" class="btn btn-outline-secondary text-white my-4">Gallery</button>
+    <hr class="hrs">
+    <div class="gbtn col-md-12 text-center ">
+        <h4 class="sub-ttl text-dark">Check out more pictures in my gallery</h4>
+        <button type="button" class="btn btn-outline-secondary text-dark my-4">Gallery</button>
     </div>
     <!-- Reviews -->
     <!-- align-items-center justify-content-center -->
@@ -156,7 +158,7 @@
                     throughout the day. We didn't just make a photoshoot, we made a memory!"
                 </h5>
                 <div class="sub-ttl col-sm-4 text-center ">
-                    <h5>- Anderson family</h5>
+                    <h5>- Maggie</h5>
                 </div>
             </div>
         </div>
@@ -180,7 +182,7 @@
                         experience!"
                     </h5>
                     <div class="sub-ttl col-sm-4 text-center ">
-                        <h5>- Anderson family</h5>
+                        <h5>- Hernandez family</h5>
                     </div>
                 </div>
             </div>

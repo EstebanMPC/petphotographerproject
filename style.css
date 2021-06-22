@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #fff;
 }
 
 html,
@@ -11,13 +11,44 @@ header,
 
 /* Background image */
 
-#intro {
+/* #intro {
   background: url(".///images/pexels-photo-1831997.jpeg") no-repeat center
     center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+} */
+
+.bg-image {
+  position: relative;
+  overflow: hidden;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.bg-image .mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+}
+
+.bg-image .mask .text {
+  height: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.bg-image .mask .text p {
+  margin: 0;
 }
 
 #intro .mask {
@@ -32,18 +63,35 @@ header,
   /* background-color: rgba(0, 0, 0, 0.6); */
 }
 
+/* FONTS */
 
+.hd-in {
+  font-family: "Dancing Script", cursive;
+  /* font-family: "Norican", cursive; */
+  color: #fff;
+}
 
-.ttl-br,
-.sub-ttl {
+.ttl-br {
   font-family: "Poiret One", cursive;
   color: #fff;
 }
 
 .hd-br {
-  /*  font-family: "Dancing Script", cursive;*/
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Norican", cursive;
+  color: #fff;
+  font-weight: 300;
+}
+
+.sub-ttl {
+  font-family: "Montserrat", sans-serif;
   /* font-family: "Norican", cursive; */
-  font-family: "Dancing Script", cursive;
+  color: #fff;
+  font-weight: 300;
+}
+
+.sub-int {
+  font-family: "Poiret One", cursive;
   color: #fff;
 }
 
@@ -52,6 +100,12 @@ header,
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.hrs {
+  margin: 2rem 10rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.9);
 }
 
 /* icons RGB */
@@ -125,7 +179,7 @@ header,
   /* width: 90vw; */
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
   margin: 0;
 }
@@ -178,9 +232,8 @@ header,
   background-size: cover;
 }
 
-
 #intro2 {
-  background: url(".//images/dog-1850465_1920.jpg") no-repeat center center
+  background: url(".//images/horse-5101069_1920.jpg") no-repeat center center
     fixed;
   height: 45rem;
   -webkit-background-size: cover;
@@ -188,8 +241,6 @@ header,
   -o-background-size: cover;
   background-size: cover;
 }
-
-
 
 #close2 {
   background: url(".//images/standup-paddleboarding-1838969_1920.jpg") no-repeat
@@ -199,4 +250,8 @@ header,
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.gbtn {
+  height: 10rem;
 }
