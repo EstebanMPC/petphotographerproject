@@ -11,56 +11,13 @@ header,
 
 /* Background image */
 
-/* #intro {
+#intro {
   background: url(".///images/pexels-photo-1831997.jpeg") no-repeat center
     center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-} */
-
-.bg-image {
-  position: relative;
-  overflow: hidden;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-}
-
-.bg-image .mask {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  color: #fff;
-}
-
-.bg-image .mask .text {
-  height: 100%;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.bg-image .mask .text p {
-  margin: 0;
-}
-
-#intro .mask {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  /* background-color: rgba(0, 0, 0, 0.6); */
 }
 
 /* FONTS */
@@ -105,7 +62,7 @@ header,
 .hrs {
   margin: 2rem 10rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.9);
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 /* icons RGB */
@@ -181,7 +138,7 @@ header,
   justify-content: center;
   height: 90vh;
   overflow: hidden;
-  margin: 0;
+  margin-top: 50px;
 }
 
 .pl {
@@ -245,7 +202,7 @@ header,
 #close2 {
   background: url(".//images/standup-paddleboarding-1838969_1920.jpg") no-repeat
     center center fixed;
-  height: 45rem;
+  height: 65rem;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,4 +211,20 @@ header,
 
 .gbtn {
   height: 10rem;
+}
+
+.reviewr {
+  margin-right: 50px;
+  padding-top: 50px;
+}
+
+.reviewl {
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+/* site footer */
+
+.fter {
+  margin-top: 25rem;
 }
