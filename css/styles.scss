@@ -1,5 +1,12 @@
+$color-primary: #fff;
+
+$subttl-font: "Montserrat", sans-serif;
+$sttl-font: "Poiret One", cursive;
+
+$introImage: "./../images/pexels-photo-1831997.jpeg";
+
 body {
-  background-color: #fff;
+  background-color: $color-primary;
   text-align: center;
 }
 
@@ -17,39 +24,35 @@ header {
 
 .hd-in {
   font-family: "Dancing Script", cursive;
-  /* font-family: "Norican", cursive; */
-  color: #fff;
+  color: $color-primary;
 }
 
 .ttl-br {
-  font-family: "Poiret One", cursive;
-  color: #fff;
+  font-family: $sttl-font;
+  color: $color-primary;
 }
 
 .hd-br {
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: "Norican", cursive;
-  color: #fff;
+  color: $color-primary;
   font-weight: 300;
 }
 
 .sub-ttl {
-  font-family: "Montserrat", sans-serif;
-  /* font-family: "Norican", cursive; */
-  color: #fff;
+  font-family: $subttl-font;
+  color: $color-primary;
   font-weight: 300;
 }
 
 .sub-int {
-  font-family: "Poiret One", cursive;
-  color: #fff;
+  font-family: $sttl-font;
+  color: $color-primary;
 }
 
 /* Index Background image */
 
 #intro {
-  background: url(".///images/pexels-photo-1831997.jpeg") no-repeat center
-    center fixed;
+  background: url(#{$introImage}) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,8 +73,8 @@ header {
 /* myservices background image */
 
 #myservicescards {
-  background: url(".//images/myservicesbacktground.jpg") no-repeat center center
-    fixed;
+  background: url("./../images/myservicesbacktground.jpg") no-repeat center
+    center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -133,13 +136,13 @@ header {
 }
 
 .card-ttl {
-  font-family: "Montserrat", sans-serif;
+  font-family: $subttl-font;
   /* font-family: "Norican", cursive; */
-  color: #fff;
+  color: $color-primary;
 }
 
 .btnservices {
-  border-color: #fff;
+  border-color: $color-primary;
 }
 
 .quote {
@@ -229,7 +232,7 @@ header {
   height: 90vh;
   overflow: hidden;
   margin-top: 50px;
-  background-color: white;
+  background-color: $color-primary;
 }
 
 .pl {
@@ -238,7 +241,7 @@ header {
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
-  color: #fff;
+  color: $color-primary;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
@@ -265,13 +268,13 @@ header {
 }
 
 .abtme {
-  background-color: white;
+  background-color: $color-primary;
 }
 
 /* Reviews */
 
 #intro3 {
-  background: url(".//images/dog-2561134_1920.jpg") no-repeat center center
+  background: url("./../images/dog-2561134_1920.jpg") no-repeat center center
     fixed;
   height: 45rem;
   -webkit-background-size: cover;
@@ -281,7 +284,7 @@ header {
 }
 
 #intro2 {
-  background: url(".//images/horse-5101069_1920.jpg") no-repeat center center
+  background: url("./../images/horse-5101069_1920.jpg") no-repeat center center
     fixed;
   height: 45rem;
   -webkit-background-size: cover;
@@ -291,8 +294,8 @@ header {
 }
 
 #close2 {
-  background: url(".//images/standup-paddleboarding-1838969_1920.jpg") no-repeat
-    center center fixed;
+  background: url("./../images/standup-paddleboarding-1838969_1920.jpg")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -322,8 +325,8 @@ header {
 /* Contact Me */
 
 #contactme {
-  background: url(".//images/black-and-white-2564361_1920.jpg") no-repeat center
-    center fixed;
+  background: url("./../images/black-and-white-2564361_1920.jpg") no-repeat
+    center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -12,3 +12,5 @@ function removeActiveClasses() {
         pl.classList.remove('active')
     })
 }
+
+baguetteBox.run('.compact-gallery', { animation: 'slideIn' });

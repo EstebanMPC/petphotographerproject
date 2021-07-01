@@ -4,12 +4,17 @@
   "description": "",
   "main": "scrip.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run watch:all",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin contactme.html -d dist --htmlmin -o dist/contactme.html && usemin gallery.html -d dist --htmlmin -o dist/gallery.html && usemin myservices.html -d dist --htmlmin -o dist/myservices.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "repository": {
     "type": "git",
@@ -22,10 +27,14 @@
   },
   "homepage": "https://github.com/EstebanMPC/petphotographerproject#readme",
   "devDependencies": {
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
     "node-sass": "^4.14.1",
     "onchange": "^7.0.0",
-    "parallelshell": "3.0.1"
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "baguettebox.js": "^1.11.1",
