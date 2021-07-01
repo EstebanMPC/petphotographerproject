@@ -7,55 +7,226 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Norican&family=Poiret+One&family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,200&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <!--  navbar-dark fixed-top scrolling-navbar -->
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark ">
-        <a href="#" class="navbar-brand ">James Avery</a>
-        <button class="navbar-toggler">
-            <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">My Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
-                </li>
-                <!-- <li class="d-inline-block btn nav-item">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="d-inline-block btn nav-item">
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                </li> -->
-            </ul>
-        </div>
-    </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="column">
-               <img src=".//images/ara-3601194_1920.jpg" alt=""> 
-               <img src=".//images/bulldog-1047518_1920.jpg" alt=""> 
-               <img src=".//images/bulldog-1047518_1920.jpg" alt=""> 
-               <img src=".//images/bulldog-1047518_1920.jpg" alt=""> 
-               <img src=".//images/bulldog-1047518_1920.jpg" alt=""> 
-               <img src=".//images/bulldog-1047518_1920.jpg" alt=""> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top ">
+            <a href="index.html" class="ttl-br navbar-brand "> J. Avery </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class=" navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myservices.html">My Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactme.html">Contact Me</a>
+                    </li>
+                    <div class="rainbow">
+                        <li class="d-inline-block btn nav-item">
+                            <a href="http://facebook.com/"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li class="d-inline-block btn nav-item">
+                            <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <div id="contactme">
+            <div class="col-md-12">
+                <h1 class="servicestitle hd-br ">My Gallery</h1>
+            </div>
+            <section class="gallery-block compact-gallery">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/dalmatian-1020790_1920.jpg">
+                                <img class="img-fluid image" src="images/dalmatian-1020790_1920.jpg">
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href=".//images/horse-3765847_1920.jpg">
+                                <img class="img-fluid image" src="images/horse-3765847_1920.jpg">
+
+                            </a>
+                        </div>            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="./images/hybrid-6274156_1920.jpg">
+                                <img class="img-fluid image" src="images/hybrid-6274156_1920.jpg">
+
+                            </a>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/ara-3695678_1920.jpg">                                <img class="img-fluid image" src="images/ara-3695678_1920.jpg">
+
+                            </a>
+                        </div>
+                       
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/cat-1941089_1920.jpg">
+                                <img class="img-fluid image" src="images/cat-1941089_1920.jpg">
+
+                            </a>                        </div>
+
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/pug-690566_1920.jpg">
+                                <img class="img-fluid image" src="images/pug-690566_1920.jpg">
+
+                            </a>
+                        </div>
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">                            <a class="lightbox" href="images/english-bulldog-562723_1920.jpg">
+                                <img class="img-fluid image" src="images/english-bulldog-562723_1920.jpg">
+
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/pexels-gustavo-fring-5163807.jpg">
+                                <img class="img-fluid image" src="images/pexels-gustavo-fring-5163807.jpg">
+                            </a>
+                        </div>            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/girl-1160441_1920.jpg">                                
+                                <img class="img-fluid image" src="images/girl-1160441_1920.jpg">
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/puppy-1082141_1920.jpg">
+                                <img class="img-fluid image" src="images/puppy-1082141_1920.jpg">
+
+                            </a>                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/cat-2536662_1920.jpg">
+                                <img class="img-fluid image" src="images/cat-2536662_1920.jpg">
+
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/dog-1850465_1920.jpg">
+                                <img class="img-fluid image" src="images/dog-1850465_1920.jpg">
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/puppy-1118584_1920.jpg">
+                                <img class="img-fluid image" src="images/puppy-1118584_1920.jpg">
+
+                            </a>
+                        </div>            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/pug-801826_1920.jpg">
+                                <img class="img-fluid image" src="images/pug-801826_1920.jpg">
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">                            
+                            <a class="lightbox" href="images/kittens-4020199_1920.jpg">
+                                <img class="img-fluid image" src="images/kittens-4020199_1920.jpg">
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/dog-423398_1920.jpg">
+                                <img class="img-fluid image" src="images/dog-423398_1920.jpg">
+                            </a>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/child-1538557_1920.jpg">
+                                <img class="img-fluid image" src="images/child-1538557_1920.jpg">
+
+                            </a>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                            <a class="lightbox" href="images/horse-5628882_1920.jpg">
+                                <img class="img-fluid image" src="images/horse-5628882_1920.jpg">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <!-- Footer -->
+            <div class="container text-white fter col-10">                <hr class="hr">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <ul class="list-unstyled ">
+                            <li><a href="index.html" class="text-decoration-none text-white">Home</a></li>
+                            <li><a href="myservices.html" class="text-decoration-none text-white">My
+                                    Services</a></li>
+                            <li><a href="gallery.html" class="text-decoration-none text-white">Gallery</a></li>
+                            <li><a href="contactme.html" class="text-decoration-none text-white">Contact</a>
+                            </li>
+                        </ul>                    </div>
+                    <div class="col-6 col-sm-5 text-center ">
+
+                        <a href="http://instagram.com/"><i class="fa fa-instagram fa-2x mt-2"></i></a>
+                        <a href="http://facebook.com/"><i class="fa fa-facebook fa-2x mx-2"></i></a>
+                        <a href="http://twitter.com/"><i class="fa fa-twitter fa-2x mx-2"></i></a>
+                        <a href="http://youtube.com/"><i class="fa fa-youtube fa-2x"></i></a>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <i class="fa fa-phone fa-lg text-white mx-2"></i> 1-206-555-1234<br />
+                        <i class="fa fa-envelope fa-lg text-white mx-2" style="color: white"></i>                        contact@jamesavery.com
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+
+    </header>
+
+
+    <!-- Main layout -->
+
+
+    <!-- <div class="col-sm-6 text-center abtme"></div> -->
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -67,6 +238,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.compact-gallery', { animation: 'slideIn' });
+    </script>
+    
+    </body>
+    
+    </body>
 </body>
 
 </html>
