@@ -86,6 +86,10 @@ header {
 
 /* myservices cards */
 
+.row {
+  margin: 0;
+}
+
 .card-header-first {
   margin-top: -40px;
   height: 90px;
@@ -125,7 +129,13 @@ header {
 
 .card-header-title {
   font-size: 25px;
-  font-style: italic;
+  font-style: bold;
+}
+
+.card-ttl {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Norican", cursive; */
+  color: #fff;
 }
 
 .btnservices {
@@ -139,6 +149,7 @@ header {
 .quotetext {
   font-size: 30px;
   font-weight: 400;
+  margin-top: 3rem;
 }
 
 .hr {
