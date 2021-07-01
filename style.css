@@ -318,3 +318,21 @@ header {
 .fter {
   margin-top: 25rem;
 }
+
+/* Contact Me */
+
+#contactme {
+  background: url(".//images/black-and-white-2564361_1920.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contactimg {
+  overflow: hidden;
+  position: relative;
+  max-height: 105%;
+  max-width: 105%;
+}
