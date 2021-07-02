@@ -14,18 +14,5 @@ function removeActiveClasses() {
 }
 
 
- 
-
-
-
-// $(document).ready(function() {
-//     $('div').click(function() {
-//         $('div.pl.active').removeClass("active");
-//         $(this).addClass("active");
-//     });
-// });
-
-
-
 
 
