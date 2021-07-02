@@ -13,4 +13,19 @@ function removeActiveClasses() {
     })
 }
 
-baguetteBox.run('.compact-gallery', { animation: 'slideIn' });
+
+ 
+
+
+
+// $(document).ready(function() {
+//     $('div').click(function() {
+//         $('div.pl.active').removeClass("active");
+//         $(this).addClass("active");
+//     });
+// });
+
+
+
+
+
